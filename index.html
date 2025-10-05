@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8">
     <title>Secor Website</title>
+    <script>
+      if (location.hostname === 'secor.co.za') {
+        location.href = 'https://www.secor.co.za' + location.pathname;
+      }
+    </script>
   </head>
   <body>
     <h1>Welcome to Secor Enterprises</h1>
